@@ -56,7 +56,7 @@ help('keywords')
 ####
 #area of circle
 #radius of circle is 30 given
-#area of cirlce is pi r**2 
+#area of circle is pi r**2 
 #pi value is 3.14
 
 
@@ -75,7 +75,7 @@ area_fc = pi*radius**2
 print(f"area of circle from user radius is{area_fc}")
 
 #####
-#using built in function to get user names and deatils
+#using builtin function to get user names and details
 firstname =input("Enter User FirstName : ")
 print(firstname)
 lastname = input("Enter user LastName : ")
@@ -84,3 +84,60 @@ county= input("enter the country : ")
 print(country)
 age = input("enter the age :")
 print(age)
+
+
+
+
+
+### Body Mass Index Calculator
+#BMI calculator
+ #inputs are weight and height
+ #formula is weight/height **2
+  
+weight = float(input("enter the weight in kg :"))
+height  = float(input("enter the weight in meters:"))
+bmi =weight/height**2
+print(f"Body Mass Index of apersonis : {bmi}")
+
+
+########
+# Temprature calculator
+###temparature calculator
+##Celsius → Fahrenheit
+F=(C×9/5​)+32
+celsius = float(input("enter celsius :"))
+fahrenheit = (celsius * 9/5)+32
+print(f"the fahrenheit is :{fahrenheit}")
+
+#fahrenheit to celsius
+fahrenheit = float(input("enter fahrenheit:"))
+celsius = (fahrenheit - 32) *5/9
+print(f"the celsius is :{celsius} ")
+
+#Celsius → Kelvin
+cel = float(input("celsius is :"))
+kelvin = cel + 273.15
+print(f"The conversion celsius to kelvin: {kelvin}")
+
+
+#Kelvin → Celsius
+keln = float(input("enter kelvin :"))
+celsius =  keln - 273.15
+print(f"the kelvin is :{celsius}")
+
+#Fahrenheit → Kelvin
+f = float(input("enter the fahrenheit:"))
+k = (f - 32) * 5/9 + 273.15
+print(f"kelvin Is : {k}")"""
+
+#kelvin to fahrenheit
+k = float(input("enter the kelvin: "))
+f = (k - 273.15) *9/5 +32
+print(f"fahrenheit of the kelvin is :{f}")
+
+
+
+
+
+
+
