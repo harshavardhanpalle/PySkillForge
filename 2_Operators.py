@@ -138,3 +138,57 @@ for i in range (1,6):
 4 1 4 16 64
 5 1 5 25 125
 """
+
+
+
+#AGE Calculator
+
+age = int(input("Enter your age: "))
+
+if age < 18:
+    print("You are a minor")
+elif 18 <= age <= 33:
+    print("You are a youth")
+elif 34 <= age <= 60:
+    print("You are an adult")
+else:  # age >= 61
+    print("You are a senior citizen")"""
+
+
+
+#AREA CALCULATOR
+
+Shape	    Formula	
+Rectangle	 Area = length × width	
+Square	    Area = side²	
+Triangle	 Area = ½ × base × height	
+Circle	     Area = π × radius²	"""
+print("Choose an option to " \
+"calculate area of which kind you have to calculate")
+print("1.Rectangle")
+print("2.Square")
+print("3.Trianlge")
+print("4.circle")
+choice = int(input("Enter the choice  you have to calculate :"))
+if choice == 1 :
+    length = float(input("enter the length :"))
+    width = float(input("enter the width :"))
+    area = length * width
+    print("The area of rectangle is:",area)
+elif choice == 2 :
+    side = float(input("Enter the side :"))
+    area = side **2
+    print("The area of circle is :",area)
+elif choice ==3:
+    base = float(input("Enter the base :"))
+    height = float(input("Enter height:"))
+    area = 1/2 * base * height
+    print("Area of Triangle : ",area)
+elif choice ==4:
+    pi = 3.1416
+    radius = float(input("Enter radius :"))
+    area = pi * radius**2
+    print("Area of circle :",area)
+else :
+    print("your choice is wrong")
+
