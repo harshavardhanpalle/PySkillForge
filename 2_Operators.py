@@ -152,7 +152,7 @@ elif 18 <= age <= 33:
 elif 34 <= age <= 60:
     print("You are an adult")
 else:  # age >= 61
-    print("You are a senior citizen")"""
+    print("You are a senior citizen")
 
 
 
